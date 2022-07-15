@@ -1,1 +1,1 @@
-docker run -d -p 80:80 --name crawler-dev -v "$PWD":/var/www/html php:7.4-apache
+docker run -d -p 80:80 --name crawler-dev -v "$PWD":/var/www/html php:apache
